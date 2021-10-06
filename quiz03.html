@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+
+
+<form action="quiz02.html">
+	<table>
+		<tr>
+			<td colspan="2">
+				<font size="4" >다음 <b><span style="background-color: orange">내용에 맞게 입력</span></b> 하시오.</font>
+			</td>
+			<td rowspan="5">
+				<img alt="리틀 어피치" src="img/littlepeach.jpg" height="150px">
+			</td>
+		</tr>
+		<tr>
+			<td colspan="2">
+				<font size="4" >전공 분야를 입력하세요.</font>
+				<select name="select">
+					<option value="m1">소프트웨어
+					<option value="m2">자바
+					<option value="m3">웹
+				</select><br>
+			</td>
+		</tr>
+		<tr>
+			<td>이름</td>
+			<td><input type="text" name="name"></td>
+		</tr>
+		<tr>
+			<td>아이디</td>
+			<td><input type="text" name="id"></td>
+		</tr>
+		<tr>
+			<td>비밀번호</td>
+			<td><input type="password" name="pwd"></td>
+		</tr>
+	</table>
+	<fieldset style="width:400px;">
+		<legend>성별 조사</legend>
+		여성<input type="radio" name="gender">
+		남성<input type="radio" name="gender">
+	</fieldset>
+	<fieldset style="width:400px;">
+		<legend>취미 조사</legend>
+		책읽기<input type="checkbox" name="hobby">
+		공부하기<input type="checkbox" name="hobby">
+		책 읽으며 공부하기<input type="checkbox" name="hobby">
+		컴퓨터<input type="checkbox" name="hobby">
+	</fieldset>
+	<fieldset style="width:400px;">
+		<legend>하고 싶은 말</legend>
+		<textarea rows="2" cols="50"></textarea>
+	</fieldset>
+	<input type="submit" value="완료">
+	<input type="reset" value="다시작성">
+</form>
+
+
+</body>
+</html>

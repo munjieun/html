@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+<!-- 
+시멘틱웹(HTML5)
+이전 버전에서 만든 프로그램을 새로운 버전으로 바꾸는 경우는 드물다.
+네이버 화면도 보면 이전버전에서 만들어져 div에 id를 부여(header, footer 등)하여 만들어 놓았다.
+header : 문서의 상위
+footer : 문서의 하단
+nav : 문서의 navigation
+section : 문서의 영역을 구성하며, 문서 구조를 구성하는 h1~h6와 함께 사용한다.
+article : 뉴스기사나 블로그 내용글과 같은 독립된 contents를 표시
+aside : 주요 컨텐츠 이외의 참고가 될 수 있는 컨텐츠 구성
+figure : 그림, 비디오와 같은 포함된 컨텐츠
+figcaption : 캡션에 사용(이미지, 동영상, 부연설명)
+ -->
+ 
+ 	<header style="background-color: pink">
+ 		<h1>제목글</h1>
+ 	</header>
+ 	<nav style="background-color: skyblue">
+ 		<ul>
+ 			<li><a href="#">메일</a></li>
+ 			<li><a href="#">카페</a></li>
+ 			<li><a href="#">뉴스</a></li>
+ 		</ul>
+ 	</nav>
+ 	<section style="background-color: yellow">
+ 		<article>뉴스거리가 들어온다.</article>
+ 		<aside>구석에 참고적인 사항이 들어온다.</aside>
+ 	</section>
+ 	<section>
+ 		<figure>
+ 			<video src="media/video.m4v" controls loop autoplay width="300" height="250"></video>
+ 			<!-- 
+ 			브라우저마다 번역기가 달라서 autoplay를 해도 안먹히는 경우가 있다.
+ 			controls는 재생, 음향 버튼 등
+ 			 -->
+ 		</figure>
+ 	</section>
+ 	<footer style="background-color: khaki">
+ 		회사소개 | 전화번호 | &copy;
+ 	</footer>
+</body>
+</html>
